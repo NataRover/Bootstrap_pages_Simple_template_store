@@ -1,0 +1,40 @@
+html {
+    overflow-x: hidden;
+}
+
+@mixin button {
+    background-color: rgb(255, 252, 222);
+    border: 2px solid #ffc107;
+}
+
+.nav {
+    .nav-item {
+        .active {
+            @include button;
+        }
+    }
+}
+.card {
+    .card-body {
+        .btn {
+            @include button;
+        }
+    }
+}
+.haracter-card {
+    .card {
+        // @include button;
+        background-color: rgb(255, 222, 132);
+    }
+}
+.list-group {
+    .active {
+        @include button;
+    }
+}
+footer {
+    section{
+        @include button;
+    }
+    
+}

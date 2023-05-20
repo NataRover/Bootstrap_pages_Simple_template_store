@@ -1,0 +1,27 @@
+html {
+  overflow-x: hidden;
+}
+
+.nav .nav-item .active {
+  background-color: rgb(255, 252, 222);
+  border: 2px solid #ffc107;
+}
+
+.card .card-body .btn {
+  background-color: rgb(255, 252, 222);
+  border: 2px solid #ffc107;
+}
+
+.haracter-card .card {
+  background-color: rgb(255, 222, 132);
+}
+
+.list-group .active {
+  background-color: rgb(255, 252, 222);
+  border: 2px solid #ffc107;
+}
+
+footer section {
+  background-color: rgb(255, 252, 222);
+  border: 2px solid #ffc107;
+}
