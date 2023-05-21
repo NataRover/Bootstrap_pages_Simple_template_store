@@ -25,3 +25,22 @@ footer section {
   background-color: rgb(255, 252, 222);
   border: 2px solid #ffc107;
 }
+
+@media(max-width:575px) {
+  .media {
+    padding: 0 !important;
+    margin-top: 10px;
+  }
+
+  .d-media-none {
+    display: none;
+  }
+
+  .w-free-media {
+    width: 100%; 
+  }
+  .w-free-media>img {
+    width: 100%;
+    height: auto;
+  }
+}
