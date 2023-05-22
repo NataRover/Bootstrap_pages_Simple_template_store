@@ -39,36 +39,13 @@ footer {
     section {
         @include button;
     }
-
 }
 
-.media {
-    @media(max-width:575px) {
-        padding: 0 !important;
-        margin-top: 10px !important;
-    }
-}
 
-.d-media-none {
-    @media(max-width:575px) {
-        display: none !important;
-    }
 
-}
 
-.w-free-media {
-    @media(max-width:575px) {
-        width: 100% !important;
-    }
 
-}
 
-.w-free-media {
-    img {
-        @media(max-width:575px) {
-            width: 100% !important;
-            height: auto !important;
-        }
 
-    }
-}
+
+  
