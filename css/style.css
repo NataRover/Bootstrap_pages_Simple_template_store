@@ -2,9 +2,9 @@ html {
   overflow-x: hidden;
 }
 
-* {
+/* * {
   border: 1px solid red;
-}
+} */
 
 .nav .nav-item .active {
   background-color: rgb(255, 252, 222);
