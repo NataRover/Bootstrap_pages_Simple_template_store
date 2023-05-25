@@ -1,6 +1,3 @@
-@import "bootstrap/functions";
-@import "bootstrap/variables";
-@import "bootstrap";
 
 @mixin button {
     background-color: rgb(255, 252, 222);
@@ -35,17 +32,17 @@
     }
 }
 
+.shop-content {
+    .summary {
+        .checkbtn {
+            @include button;
+        }
+
+    }
+}
+
 footer {
     section {
         @include button;
     }
 }
-
-
-
-
-
-
-
-
-  
